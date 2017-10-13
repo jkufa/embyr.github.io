@@ -38,3 +38,7 @@ body {
   grid-area: footer;
   background: black;
 }
+
+.splash {
+  background-image: url("../img/watermark.svg")
+}
