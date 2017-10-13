@@ -16,7 +16,11 @@ body {
 
 .hero {
   grid-area: hero;
-  background: lightgray;
+  background: rgb(0,0,50);
+}
+
+#particles-js {
+  height: 100%;
 }
 
 .sidebar {
