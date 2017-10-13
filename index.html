@@ -34,13 +34,14 @@
     <aside class="sidebar">
       <nav class="navigation">
         <div class="navigation__logo">Logo</div>
-        <div class="navigation__hamburger">
-          <input type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-          </input>
-        </div>
+          <input id ="toggle" type="checkbox">
+          <label class="toggle-container" for="toggle">
+            <span class="button button-toggle"></span>
+          </label>
+          <div class="navigation__links">
+            <a class="navigation__link" href="#">Home</a>
+            <a class="navigation__link" href="#">About</a>
+            <a class="navigation__link" href="#">Members</a>
       </nav>
       <section class="pinned-items">
         <div class="pinned-items__pin"></div>
