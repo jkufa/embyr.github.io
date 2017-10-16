@@ -17,10 +17,13 @@ body {
 .hero {
   grid-area: hero;
   background: rgb(0,0,50);
+  vertical-align: middle;
 }
 
 #particles-js {
   height: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .sidebar {
@@ -40,5 +43,8 @@ body {
 }
 
 .splash {
-  background-image: url("../img/watermark.svg")
+  position: absolute;
+  filter: invert(100%);
+  width: 100%;
+  z-index: 2;
 }
