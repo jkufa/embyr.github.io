@@ -28,7 +28,7 @@ body {
 
 .hero {
   grid-area: hero;
-  background: rgb(0,0,50);
+  background: lightgray;
   vertical-align: middle;
   display: flex;
   justify-content: center;
@@ -37,7 +37,6 @@ body {
 
 .splash {
   position: absolute;
-  filter: invert(100%);
   width: 50%;
   z-index: 2;
 }
