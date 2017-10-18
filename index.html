@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
   <head>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -31,22 +31,44 @@
       <script src="js/particles.min.js"></script>
     </header>
 
-    <aside class="sidebar">
-      <nav class="navigation">
-        <div class="navigation__logo">Logo</div>
-        <div class="navigation__hamburger">
-          <input type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-          </input>
-        </div>
-      </nav>
-      <section class="pinned-items">
-        <div class="pinned-items__pin"></div>
-        <div class="pinned-items__pin"></div>
-      </section>
-    </aside>
+    
+    <nav class="navigation">
+    <input id='link-top' type='checkbox'>
+    <label class='down' for='link-top'>
+      <h2>Menu</h2>
+    </label>
+    <ul>
+      <li>
+        <input id='link-shop' type='checkbox'>
+        <label class='right' for='link-shop'>Shop</label>
+        <ul>
+          <li><a>Tops</a></li>
+          <li><a>Bottoms</a></li>
+          <li><a>Shoes</a></li>
+          <li>
+            <a>Accessories</a>
+          </li>
+          <li>
+            <a>Sale</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a>Blog</a>
+      </li>
+      <li>
+        <a>About</a>
+      </li>
+      <li>
+        <a>Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+    <section class="pinned-items">
+      <div class="pinned-items__pin"></div>
+      <div class="pinned-items__pin"></div>
+    </section>
 
     <main class="content">
       <div class="post">
