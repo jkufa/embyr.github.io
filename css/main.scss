@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 $items: 3;
 $transition-duration: 0.5s;
@@ -27,6 +28,7 @@ body {
 }
 
 .hero {
+  font-family: 'Nunito', sans-serif;
   grid-area: hero;
   background: lightgray;
   vertical-align: middle;
@@ -65,6 +67,7 @@ $green: #AEBFAF;
 $mint: #f2faf3;
 
 nav {
+  font-family: 'Nunito', sans-serif;
   position: relative;
   animation: bounceInUp 1000ms linear 500ms forwards;
   label, a {
@@ -277,7 +280,7 @@ nav {
 }
 
 .button {
-    font-family: Gotham Rounded Light;
+    font-family: Nunito;
     position: absolute;
     border: 3px solid lightgray;
     color: lightgray;
@@ -337,6 +340,7 @@ text-align: center;
 }
 
 .text {
+  font-family: 'Nunito', sans-serif;
   height: 220px;
   width: 100%;
   background-color: #faf6ec;
