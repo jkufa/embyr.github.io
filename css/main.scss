@@ -1,6 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
 
 $items: 3;
 $transition-duration: 0.5s;
@@ -67,7 +67,7 @@ $green: #AEBFAF;
 $mint: #f2faf3;
 
 nav {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   position: relative;
   animation: bounceInUp 1000ms linear 500ms forwards;
   label, a {
@@ -340,7 +340,7 @@ text-align: center;
 }
 
 .text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   height: 220px;
   width: 100%;
   background-color: #faf6ec;
