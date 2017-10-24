@@ -393,9 +393,15 @@ text-align: center;
       "footer footer"
   }
 
+  .posts{
+    flex-direction: column;
+    width: 100%;
+  }
+
   .post {
     flex-direction: row;
     padding: 20px 10px;
+    padding-right: 10px;
   }
 
   .post:nth-of-type(even){
@@ -428,8 +434,8 @@ text-align: center;
     display: flex;
     align-items: center;
     line-height: 100%;
-    margin-left: -100px;
-    margin-right: -100px;
+    //margin-left: -100px;
+    //margin-right: -100px;
     border-radius: 12px;
     background-color: #faf6ec;
     width:100%;
