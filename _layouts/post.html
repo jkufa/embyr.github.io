@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="blog">
+  <div class="blog__title">{{ page.title }}</div>
+
+  <p class="meta">{{ page.date | data_to_string}}</p>
+
+  <div class="blog__text">
+    {{ content }}
+  </div>
+</div>

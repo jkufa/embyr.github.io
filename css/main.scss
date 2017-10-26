@@ -11,6 +11,7 @@ $transition-delay: 0.05s;
 }
 
 html, body {
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -18,10 +19,11 @@ html, body {
 body {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 70vh auto auto 200px;
+  grid-template-rows: 70vh auto auto auto;
   grid-template-areas:
     "hero hero"
     "navigation navigation"
+    "pinned pinned"
     "content content"
     "footer footer";
   background: white;
@@ -260,14 +262,10 @@ nav {
   background: white;
 }
 
-.content {
-  grid-area: content;
-  background: #333333;
-}
-
 .footer {
+  text-align: center;
   grid-area: footer;
-  background: black;
+  background: gray;
 }
 
 .content {
@@ -275,9 +273,28 @@ nav {
   background: white;
 }
 
-.footer {
-  grid-area: footer;
-  background: black;
+.blog {
+  font-family: Nunito;
+  font-weight: lighter;
+  border-radius: 12px;
+}
+
+.blog * {
+  padding: 0 20px;
+}
+
+.blog__title {
+  padding-top: 50px;
+  font-size: 250%;
+  font-family: Nunito;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.blog__text {
+  text-align: left;
+  padding-bottom: 50px;
 }
 
 .button {
@@ -310,11 +327,10 @@ nav {
 
 .post {
   width:100%;
-  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .preview {
@@ -324,15 +340,21 @@ nav {
   display: flex;
   flex-direction: row;
   z-index: 1000;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.preview * {
+  height: 80%;
 }
 
 .preview__image:before {
-  width: 100%;
+  //width: 100%;
   padding-bottom: 100%;
 }
 
 .preview__image {
-  background-color: black;
   border-radius: 50%
 }
 
@@ -342,9 +364,16 @@ text-align: center;
 
 .text {
   font-family: 'Nunito';
-  height: 220px;
   width: 100%;
   background-color: #faf6ec;
+}
+
+.text * {
+  margin-left: 25px;
+}
+
+.posts {
+  padding-left:0;
 }
 
 
@@ -378,6 +407,16 @@ text-align: center;
 	}
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
 @media (min-width: 1100px) {
   body {
     grid-template-rows: 100vh auto auto 200px;
@@ -388,9 +427,14 @@ text-align: center;
       "footer footer"
   }
 
+  .posts{
+    flex-direction: column;
+    width: 100%;
+  }
+
   .post {
     flex-direction: row;
-    padding: 20px 10px;
+
   }
 
   .post:nth-of-type(even){
@@ -419,15 +463,12 @@ text-align: center;
   }
 
   .text {
-    width: 65%;
+    width: auto;
     display: flex;
     align-items: center;
     line-height: 100%;
-    margin-left: -100px;
-    margin-right: -100px;
-    border-radius: 12px;
     background-color: #faf6ec;
-    width:100%;
+    border-radius: 12px;
     z-index: 1000;
   }
 
