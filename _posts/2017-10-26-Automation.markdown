@@ -35,21 +35,21 @@ However, much like the other solutions proposed there are many critical issues t
 
 Automation is a potential threat, but as all things are, the threat must be taken with a grain of salt. The problems with automation identified in this essay are of a negative view on the subject matter. Although many economic experts agree humanity&#39;s future through automation could be a dark path forward, there are those who believe through automation humanity will be forever improved. One thing is certain, many along the way will have their toes stepped on and be hurt by automation. AI will disrupt labor markets just as the invention of the car disrupted all horse related markets in the past, but from its implementation, new paths will be created for people to follow. As Rudyard Kipling wrote in his poem &quot;The Secret of Machines:&quot;
 
-&quot;We can pull and haul and push and lift and drive,
+>&quot;We can pull and haul and push and lift and drive,
 
-We can print and plough and weave and heat and light,
+>We can print and plough and weave and heat and light,
 
-We can run and race and swim and fly and dive,
+>We can run and race and swim and fly and dive,
 
-We can see and hear and count and read and write!
+>We can see and hear and count and read and write!
 
-...Because, for all our power and weight and size,
+>...Because, for all our power and weight and size,
 
-We are nothing more than children of your brain!&quot; (1)
+>We are nothing more than children of your brain!&quot; (1)
 
 Looking forward, humanity must collectively understand, although it has the capacity to build machines to perform every task and work every job, it must ensure its own existence first and foremost. Automation may be the key to efficiency, higher quality, and increased profit, but these benefits have no meaning if they create an unemployment crisis and ruin the livelihoods of multitudes of families.
 
-Works Cited
+## Works Cited
 
 Afp. &quot;Instead of Immigrants, Automation May Take Away More Jobs.&quot; _The Economic Times_, 14 Jan. 2017, economictimes.indiatimes.com/news/international/business/instead-of- immigrants-automation-may-take-away-more-jobs/articleshow/56563837.cms.
 
