@@ -320,6 +320,10 @@ nav {
   vertical-align: middle;
 }
 
+.preview * {
+  margin: 15px 15px;
+}
+
 .preview__image:before {
   width: 100%;
   padding-bottom: 100%;
@@ -338,6 +342,10 @@ text-align: center;
   font-family: 'Nunito';
   width: 100%;
   background-color: #faf6ec;
+}
+
+.text * {
+  margin-left: 25px;
 }
 
 .posts {

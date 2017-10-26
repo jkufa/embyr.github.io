@@ -15,7 +15,9 @@ layout: default
             <br><a href="{{ post.url }}">Read more...</a><br><br>
           </div>
         </div>
-        <div class="text">{{ post.content | strip_html | truncatewords:200}}<br>
+        <div class="text">
+          <div>{{ post.content | strip_html | truncatewords:200}}</div>
+          <br>
       </div>
     </div>
   {% endif %}
