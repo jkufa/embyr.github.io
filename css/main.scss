@@ -19,7 +19,7 @@ html, body {
 body {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 70vh auto auto 200px;
+  grid-template-rows: 70vh auto auto auto;
   grid-template-areas:
     "hero hero"
     "navigation navigation"
@@ -261,11 +261,6 @@ nav {
   background: white;
 }
 
-.content {
-  grid-area: content;
-  background: #333333;
-}
-
 .footer {
   text-align: center;
   grid-area: footer;
@@ -275,11 +270,6 @@ nav {
 .content {
   grid-area: content;
   background: white;
-}
-
-.footer {
-  grid-area: footer;
-  background: gray;
 }
 
 .button {
@@ -312,11 +302,10 @@ nav {
 
 .post {
   width:100%;
-  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .preview {
@@ -347,9 +336,12 @@ text-align: center;
 
 .text {
   font-family: 'Nunito';
-  height: 220px;
   width: 100%;
   background-color: #faf6ec;
+}
+
+.posts {
+  padding-left:0;
 }
 
 
@@ -383,6 +375,16 @@ text-align: center;
 	}
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
 @media (min-width: 1100px) {
   body {
     grid-template-rows: 100vh auto auto 200px;
@@ -400,8 +402,7 @@ text-align: center;
 
   .post {
     flex-direction: row;
-    padding: 20px 10px;
-    padding-right: 10px;
+
   }
 
   .post:nth-of-type(even){
@@ -430,15 +431,12 @@ text-align: center;
   }
 
   .text {
-    width: 65%;
+    width: auto;
     display: flex;
     align-items: center;
     line-height: 100%;
-    //margin-left: -100px;
-    //margin-right: -100px;
-    border-radius: 12px;
     background-color: #faf6ec;
-    width:100%;
+    border-radius: 12px;
     z-index: 1000;
   }
 

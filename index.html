@@ -15,8 +15,7 @@ layout: default
             <br><a href="{{ post.url }}">Read more...</a><br><br>
           </div>
         </div>
-        <div class="superegg"></div>
-        <div class="text">        {{ post.content | strip_html | truncatewords:200}}<br>
+        <div class="text">{{ post.content | strip_html | truncatewords:200}}<br>
       </div>
     </div>
   {% endif %}
