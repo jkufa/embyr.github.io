@@ -272,6 +272,30 @@ nav {
   background: white;
 }
 
+.blog {
+  font-family: Nunito;
+  font-weight: lighter;
+  border-radius: 12px;
+}
+
+.blog * {
+  padding: 0 20px;
+}
+
+.blog__title {
+  padding-top: 50px;
+  font-size: 250%;
+  font-family: Nunito;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.blog__text {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
 .button {
     font-family: Nunito;
     position: absolute;
