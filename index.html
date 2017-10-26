@@ -9,13 +9,15 @@ layout: default
   {% if post.categories contains 'blog' %}
       <div class="post">
         <div class="preview">
-          <div class="preview__image"></div>
+          <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}"></object></div>
           <div class="preview__blurb">
             {{ post.title }}
             <br><a href="{{ post.url }}">Read more...</a><br><br>
           </div>
         </div>
-        <div class="text">{{ post.content | strip_html | truncatewords:200}}<br>
+        <div class="text">
+          <div>{{ post.content | strip_html | truncatewords:200}}</div>
+          <br>
       </div>
     </div>
   {% endif %}

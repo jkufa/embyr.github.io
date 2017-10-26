@@ -320,13 +320,16 @@ nav {
   vertical-align: middle;
 }
 
+.preview * {
+  height: 80%;
+}
+
 .preview__image:before {
-  width: 100%;
+  //width: 100%;
   padding-bottom: 100%;
 }
 
 .preview__image {
-  background-color: black;
   border-radius: 50%
 }
 
@@ -338,6 +341,10 @@ text-align: center;
   font-family: 'Nunito';
   width: 100%;
   background-color: #faf6ec;
+}
+
+.text * {
+  margin-left: 25px;
 }
 
 .posts {
