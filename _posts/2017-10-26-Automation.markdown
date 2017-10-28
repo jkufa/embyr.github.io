@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automation"
-author: lmefford
+author: Lucas Mefford
 picture: ../img/logo.svg
 date:   2017-10-12 20:34:26 -0500
 categories: blog

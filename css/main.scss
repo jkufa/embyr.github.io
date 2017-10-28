@@ -297,6 +297,24 @@ nav {
   padding-bottom: 50px;
 }
 
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.blog__author {
+  width: 100%;
+  margin:auto;
+  background-color: #faf6ec;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  z-index: 1000;
+}
+
 .button {
     font-family: Nunito;
     position: absolute;
@@ -364,6 +382,8 @@ text-align: center;
 
 .text {
   font-family: 'Nunito';
+  color: black;
+  text-decoration: none;
   width: 100%;
   background-color: #faf6ec;
 }
@@ -469,6 +489,7 @@ text-align: center;
     line-height: 100%;
     background-color: #faf6ec;
     border-radius: 12px;
+    height: 220px;
     z-index: 1000;
   }
 
