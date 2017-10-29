@@ -1,82 +1,26 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.title }}</h1>
-<ul class="posts">
-
-<<<<<<< HEAD
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-
-    <!-- Add your site or application content here -->
-
-    <header class="hero">
-      <div class="splash"><img src="img/watermark.svg"></div>
-      <div id="particles-js"></div>
-      <script src="js/particles.min.js"></script>
-    </header>
-
-    
-    <nav class="navigation">
-    <input id='link-top' type='checkbox'>
-    <label class='down' for='link-top'>
-      <!-- <img src="img/pulsar-long.svg"> -->
-      <h3>PULSAR Laboratories</h3>
-    </label>
-    <ul>
-      <li>
-        <a href="https://pulsarlabs.io">Home</a>
-      </li>
-      <li>
-        <a href="https://pulsarlabs.io/blog">Blog</a>
-      </li>
-      <li>
-        <a href="https://pulsarlabs.io/projects">Projects</a>
-      </li>
-      <li>
-        <a href="https://pulsarlabs.io/team">Meet the team</a>
-      </li>
-    </ul>
-  </nav>
-
-    <section class="pinned-items">
-      <div class="pinned-items__pin"></div>
-      <div class="pinned-items__pin"></div>
-    </section>
-
     <main class="content">
-=======
-{% for post in site.posts %}
-  {% if post.categories contains 'blog' %}
->>>>>>> b85e3adddf9beb32da283d55010d8ece94e04756
-      <div class="post">
-        <div class="preview">
-          <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}"></object></div>
-          <div class="preview__blurb">
-            {{ post.title }}
-            <br>
-            {{ post.author }}<br><br>
+      {% for post in site.posts %}
+        {% if post.categories contains 'blog' %}
+          <div class="post">
+            <div class="preview">
+              <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}"></object></div>
+              <div class="preview__blurb">
+                {{ post.title }}
+                <br>
+                {{ post.author }}<br><br>
+              </div>
+            </div>
+            <a href="{{ post.url }}">
+              <div class="text">
+                <div>{{ post.content | strip_html | truncatewords:50}}</div>
+                <br>
+              </div>
+            </a>
           </div>
-        </div>
-        <a href="{{ post.url }}">
-          <div class="text">
-            <div>{{ post.content | strip_html | truncatewords:50}}</div>
-            <br>
-        </div>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
-</ul>
+        {% endif %}
+      {% endfor %}
+    </main>
+  </body>
