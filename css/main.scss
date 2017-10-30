@@ -1,6 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
 
 $items: 3;
 $transition-duration: 0.5s;
@@ -11,7 +11,7 @@ $transition-delay: 0.05s;
 }
 
 html, body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   grid-area: hero;
   background: lightgray;
@@ -274,7 +274,7 @@ nav {
 }
 
 .blog {
-  font-family: Nunito;
+  font-family: Roboto;
   font-weight: lighter;
   border-radius: 12px;
 }
@@ -316,7 +316,7 @@ nav {
 }
 
 .button {
-    font-family: Nunito;
+    font-family: Roboto;
     position: absolute;
     border: 3px solid lightgray;
     color: lightgray;
