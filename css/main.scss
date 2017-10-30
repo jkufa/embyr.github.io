@@ -61,6 +61,11 @@ a {
   grid-area: navigation;
 }
 
+.sidebar {
+  background: #525252;
+  grid-area: sidebar;
+}
+
 $p: 12px;
 $w: 100%;
 $n: 5;
@@ -266,7 +271,7 @@ nav {
 
 .pinned-items {
   grid-area: pinned;
-  background: white;
+  background: #494949;
 }
 
 .footer {
@@ -279,6 +284,7 @@ nav {
 .content {
   grid-area: content;
   background: white;
+  padding: 10px;
 }
 
 .blog {
@@ -356,7 +362,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .preview {
@@ -453,8 +458,8 @@ nav {
     grid-template-rows: 100vh auto auto 200px;
     grid-template-areas:
       "hero hero"
-      "navigation content"
-      "pinned content"
+      "sidebar content"
+      "sidebar content"
       "footer footer"
   }
 
@@ -476,6 +481,7 @@ nav {
     height: 220px;
     max-height: none;
     width: 30%;
+    max-width: 220px;
     margin-right: 10px;
     margin-left: 10px;
     position: relative;
