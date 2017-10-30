@@ -1,3 +1,3 @@
-# Pulsar Laboratories website
+# Embyr Technologies website
 
-This is the location of the source for the website http://pulsarlabs.io.
+This is the location of the source for the website http://embyrtech.io
