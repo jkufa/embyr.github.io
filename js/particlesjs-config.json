@@ -1,20 +1,20 @@
 {
   "particles": {
     "number": {
-      "value": 75,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#505050"
+      "value": "#9f0000"
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
-        "color": "#505050"
+        "width": 3,
+        "color": "#9f0000"
       },
       "polygon": {
         "nb_sides": 5
@@ -46,9 +46,9 @@
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 200,
-      "color": "#505050",
+      "color": "#d84315",
       "opacity": 0.4,
       "width": 1
     },
