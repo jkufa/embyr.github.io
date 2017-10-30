@@ -72,29 +72,28 @@ $mint: #f2faf3;
 nav {
   font-family: 'Nunito';
   position: relative;
-  animation: bounceInUp 1000ms linear 500ms forwards;
+  animation: ease-in-out 1000ms linear 500ms forwards;
   label, a {
-    transition: all 150ms ease-out;
+    color: white;
+    transition: all 250ms ease-out;
     cursor: pointer;
     display: flex;
     align-items: center;
     align-content: center;
-    height: 48px;
+    height: 60px;
     width: $w;
     padding: 0 $p;
-    background: white;
-    border: 2px solid $grey;
-    border-radius: 2px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: -1px;
+    background: #373737;
   }
   a {
+    height: 0px;
     &:hover, &:focus {
-      border-color: mix($mint, $green);
+      //border-color: mix($mint, $green);
+      background: #272727;
     }
     &:active {
-      border-color: $pink;
+      //border-color: $pink;
+      background:black;
     }
   }
   label {
@@ -139,16 +138,20 @@ nav {
   }
   > label {
     transform: translateZ(1px);
-    z-index: 1;
+    z-index: 10;
   }
   ul {
     will-change: visibility;
     transition: visibility 0ms ease-out 600ms;
     visibility: hidden;
-    z-index: 1;
+    z-index: 9;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #373737;
     li {
       will-change: transform, opacity;
-      padding: $p/3 0;
+      //padding: $p/3 0;
       opacity: 0;
       @for $i from 1 through $n {
         &:nth-child(#{$i}) {
@@ -159,7 +162,7 @@ nav {
   }
   > ul {
     position: relative;
-    padding-top: $p/3;
+    //padding-top: $p/3;
     > li {
       transform: translateY(-100%);
       > label {
@@ -226,8 +229,11 @@ nav {
           transform: none;
           @for $i from 1 through $n {
             &:nth-child(#{$i}) {
-              transition: transform 150ms $e #{$i*100}ms, opacity 100ms ease-out #{$i*100}ms;
+              transition: transform 100ms $e #{$i*100}ms, opacity 100ms ease-out #{$i*100}ms;
             }
+          }
+          > a {
+            height: 60px;
           }
         }
       }
