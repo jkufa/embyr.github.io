@@ -33,7 +33,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   grid-area: hero;
-  background: #102027;
+  background: #ffecb3;
   vertical-align: middle;
   display: flex;
   justify-content: center;
@@ -283,7 +283,7 @@ nav {
 
 .content {
   grid-area: content;
-  background: #e1e2e1;
+  background: #ffffe5;
   padding: 10px;
 }
 
@@ -368,7 +368,7 @@ nav {
 .preview {
   min-height: 55px;
   max-height: 100px;
-  background-color: #ffffe5;
+  background-color: #ffecb3;
   width:100%;
   display: flex;
   flex-direction: row;
@@ -402,7 +402,7 @@ nav {
   color: black;
   text-decoration: none;
   width: 100%;
-  background-color: #ffffe5;
+  background-color: #ffecb3;
 }
 
 .text * {
@@ -456,7 +456,7 @@ nav {
 
 @media (min-width: 1100px) {
   body {
-    grid-template-rows: 100vh auto auto auto;
+    grid-template-rows: 70vh auto auto auto;
     grid-template-areas:
       "hero hero"
       "sidebar content"
