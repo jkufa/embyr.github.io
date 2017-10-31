@@ -505,7 +505,14 @@ nav {
   }
 
   .preview__image {
-    height: 50%;
+    height: 60%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .preview__blurb {
+    text-align: center;
+    margin: auto;
   }
 
   .text {
