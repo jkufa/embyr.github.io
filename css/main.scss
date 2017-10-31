@@ -23,7 +23,6 @@ body {
   grid-template-areas:
     "hero hero"
     "sidebar sidebar"
-    "pinned pinned"
     "content content"
     "footer footer";
   background: white;
@@ -283,7 +282,7 @@ nav {
 
 .content {
   grid-area: content;
-  background: #e1e2e1;
+  background: #ffffe5;
   padding: 10px;
 }
 
@@ -368,7 +367,7 @@ nav {
 .preview {
   min-height: 55px;
   max-height: 100px;
-  background-color: #ffffe5;
+  background-color: #ffecb3;
   width:100%;
   display: flex;
   flex-direction: row;
@@ -402,7 +401,7 @@ nav {
   color: black;
   text-decoration: none;
   width: 100%;
-  background-color: #ffffe5;
+  background-color: #ffecb3;
 }
 
 .text * {
@@ -456,11 +455,11 @@ nav {
 
 @media (min-width: 1100px) {
   body {
-    grid-template-rows: 100vh auto auto auto;
-    grid-template-areas:
+    grid-template-rows: 70vh auto auto auto;
+    grid-template-areas: // serve mobile to everybody until we have a better solution
       "hero hero"
-      "sidebar content"
-      "sidebar content"
+      "sidebar sidebar"
+      "content content"
       "footer footer"
   }
 
