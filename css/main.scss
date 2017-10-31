@@ -23,7 +23,6 @@ body {
   grid-template-areas:
     "hero hero"
     "sidebar sidebar"
-    "pinned pinned"
     "content content"
     "footer footer";
   background: white;
@@ -33,7 +32,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   grid-area: hero;
-  background: #102027;
+  background: #2c2c2c;
   vertical-align: middle;
   display: flex;
   justify-content: center;
@@ -92,7 +91,7 @@ nav {
     height: 60px;
     width: $w;
     padding: 0 $p;
-    background: #373737;
+    background: #4d4d4d;
   }
   a {
     height: 0px;
@@ -287,7 +286,7 @@ nav {
 
 .content {
   grid-area: content;
-  background: white;
+  background: #ffffe5;
   padding: 10px;
 }
 
@@ -366,12 +365,13 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .preview {
   min-height: 55px;
   max-height: 100px;
-  background-color: #faf6ec;
+  background-color: #ffecb3;
   width:100%;
   display: flex;
   flex-direction: row;
@@ -405,7 +405,7 @@ nav {
   color: black;
   text-decoration: none;
   width: 100%;
-  background-color: #faf6ec;
+  background-color: #ffecb3;
 }
 
 .text * {
@@ -459,11 +459,11 @@ nav {
 
 @media (min-width: 1100px) {
   body {
-    grid-template-rows: 100vh auto auto auto;
-    grid-template-areas:
+    grid-template-rows: 70vh auto auto auto;
+    grid-template-areas: // serve mobile to everybody until we have a better solution
       "hero hero"
-      "sidebar content"
-      "sidebar content"
+      "sidebar sidebar"
+      "content content"
       "footer footer"
   }
 
@@ -489,15 +489,10 @@ nav {
     margin-right: 10px;
     margin-left: 10px;
     position: relative;
-    background-color: #faf6ec;
     display: flex;
     flex-direction: column;
     border-radius: 20%/20%;
     z-index: 1000;
-  }
-
-  .preview__image {
-    display: block;
   }
 
   .preview::before {
@@ -509,7 +504,15 @@ nav {
   }
 
   .preview__image {
-    height: 50%;
+    display: block;
+    height: 60%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .preview__blurb {
+    text-align: center;
+    margin: auto;
   }
 
   .text {
@@ -517,7 +520,6 @@ nav {
     display: flex;
     align-items: center;
     line-height: 100%;
-    background-color: #faf6ec;
     border-radius: 12px;
     height: 220px;
     z-index: 1000;
