@@ -1,18 +1,34 @@
 ---
-layout: page
-title: About
+layout: default
+title: About Us
 permalink: /about/
 ---
+embyr is an open-source, grassroots research organization.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+EDDIE, this is where you need to put stuff.
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam iaculis dui, non ornare elit finibus nec. Phasellus convallis nisi quis dolor viverra bibendum. Etiam ac tellus finibus, dapibus augue quis, ullamcorper ante. Morbi eu aliquam lacus, quis mattis velit. Aenean iaculis mauris diam, a suscipit urna gravida vel. Mauris vitae turpis ante. Vivamus id scelerisque urna, id porta ex.
+
+Phasellus porttitor at urna vel placerat. Curabitur finibus, magna id egestas hendrerit, sapien purus hendrerit tellus, a congue arcu leo ac nibh. Curabitur fringilla, urna tincidunt placerat ultrices, arcu justo imperdiet nibh, a fermentum tellus metus ac libero. Morbi a sem ac diam feugiat laoreet. Sed tempus libero et libero laoreet, quis pellentesque turpis posuere. Vivamus in lobortis tellus, vitae mattis est. Aliquam nec vulputate libero, quis accumsan dui. Integer quis enim lacus. Donec vel lorem ornare, porttitor sapien nec, placerat est. Nulla facilisi. Aenean eu efficitur nunc. In id sem eros. Nunc id placerat nunc. Fusce quis sem gravida, vulputate nulla eget, dignissim metus. Sed vestibulum felis ut ipsum lacinia, ultricies maximus ligula euismod. Nullam faucibus enim vel arcu mattis ullamcorper.
+
+Proin elementum odio eu purus porttitor, a congue justo gravida. Pellentesque hendrerit libero varius magna maximus porttitor. Phasellus ultricies quis nibh quis porttitor. Praesent feugiat nisi eu metus rhoncus, sit amet molestie sapien aliquet. Curabitur dolor est, semper nec lectus vitae, vehicula posuere lorem. Praesent dictum lorem est, et dignissim mauris vestibulum ac. In eget augue et quam facilisis imperdiet. Cras massa lectus, egestas ut enim ut, feugiat semper neque.
+
+Nam et eros in justo elementum varius. Duis volutpat placerat leo eget viverra. Curabitur at erat id purus accumsan egestas. Aenean lobortis id massa vitae bibendum. Phasellus aliquet tortor eu odio dapibus dictum. Nam sodales, tortor ut bibendum lacinia, mi velit ultricies erat, in condimentum magna odio vitae ex. Aenean vehicula, justo a sagittis bibendum, massa neque suscipit ligula, eu iaculis metus lorem vitae mi. Curabitur facilisis, nibh quis consequat imperdiet, augue elit iaculis ante, eu interdum est libero sit amet mauris. Praesent ac risus dolor. Sed interdum eu nunc vel vehicula. Suspendisse in porta risus, at interdum nisi. Integer sapien elit, lacinia et efficitur in, accumsan a turpis. Nam blandit lobortis ipsum, eget pellentesque metus pulvinar et. Aliquam tempus pharetra odio, eget sollicitudin lectus ultrices in. Duis nec fringilla nibh, in ultricies velit.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In nec mollis erat, id vulputate mauris. Proin sed scelerisque enim. Phasellus volutpat purus vel nunc blandit, in congue libero pharetra. Suspendisse eu tempus quam. Aenean vulputate at enim in luctus. Mauris pulvinar tortor massa, nec vehicula elit congue non. In felis neque, fermentum malesuada nulla in, ultrices tincidunt erat. Phasellus faucibus dignissim lectus, a ullamcorper ante semper at. Pellentesque quis justo metus. Maecenas ut porta orci. Suspendisse efficitur felis nec sapien faucibus consectetur. Sed ac bibendum tortor, vitae scelerisque sapien.
+
+Praesent ut arcu ligula. Maecenas accumsan rhoncus nisl in eleifend. Nulla sed dolor vel lectus ornare feugiat at vitae leo. Donec tincidunt massa mi, non maximus leo sagittis tempor. Sed aliquet aliquet fermentum. Proin at viverra lectus, eget imperdiet mauris. Morbi et dui sagittis, vestibulum arcu suscipit, scelerisque justo. Vestibulum hendrerit ultricies leo ut consequat. Fusce finibus eleifend ante, at eleifend metus tincidunt a. Praesent a arcu vel mauris mattis elementum quis at lectus. Vestibulum sollicitudin diam aliquet augue dignissim sollicitudin. Quisque sit amet nisi odio. Praesent nec magna mi. Fusce vehicula turpis nunc, eget pharetra libero maximus eget. Nunc ullamcorper justo ut eros imperdiet placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Integer ultricies, ligula sed finibus sodales, diam leo fermentum lectus, quis pellentesque magna mi vel risus. Nam aliquet elementum mauris, et scelerisque est porta vitae. Fusce a interdum nunc. Curabitur congue odio mi, sed dapibus dolor tincidunt sed. Ut ultrices, mi nec aliquam tincidunt, elit nibh accumsan orci, non aliquam lectus ante ut nulla. Sed in lectus volutpat, cursus odio a, aliquam magna. Ut risus tellus, congue eu mi quis, blandit sagittis tellus. Mauris mollis enim massa, eget lacinia eros congue ac. Cras auctor, libero vehicula tempus tempor, elit neque euismod quam, eu ultrices metus augue ac metus. Fusce fringilla nec ipsum vel mollis. Proin quis augue rhoncus, ullamcorper enim hendrerit, dapibus tortor. Cras eget rhoncus ex.
+
+Nam vel dui rutrum, accumsan arcu sed, bibendum felis. Proin lorem enim, sagittis in hendrerit vitae, eleifend sit amet quam. Donec quis nisl fringilla, convallis ipsum quis, convallis tortor. Maecenas volutpat hendrerit neque eget ultrices. Morbi feugiat ex in nisl bibendum malesuada. In placerat sodales lorem, ut ultrices quam rhoncus et. Maecenas congue tortor a magna pretium, eget vehicula leo egestas. Phasellus vulputate mollis eros, vel accumsan ipsum iaculis vel. Praesent sodales ipsum euismod velit varius, eget pretium lacus faucibus. Aenean sit amet interdum sapien. Donec tristique elit mauris, eu mollis sem aliquam et. Integer pharetra ante varius pharetra venenatis.
+
+Maecenas sed augue ac augue scelerisque porta sed ac nulla. Curabitur a dignissim nulla. Duis lectus nisl, efficitur vel posuere a, pellentesque eu augue. Vestibulum ante libero, vestibulum ac auctor id, pulvinar non quam. Curabitur egestas ultricies lectus, eu eleifend velit malesuada sit amet. Morbi quis elementum velit, sit amet commodo mi. Nam feugiat sapien ac dolor rhoncus porttitor. Suspendisse ex eros, bibendum vel posuere tincidunt, egestas at ex. Proin rhoncus, justo a ultrices feugiat, tortor leo molestie magna, nec laoreet quam leo quis massa. Aenean et lorem ultricies, fringilla elit in, tincidunt enim.
+
+Suspendisse tempor nisl vel imperdiet blandit. Praesent posuere ligula vitae finibus fringilla. Nunc mauris lorem, facilisis cursus nisi vel, imperdiet malesuada augue. Sed porttitor vehicula lacus et varius. Curabitur ut euismod sem. Integer purus nisi, feugiat nec diam id, vestibulum facilisis sem. Nunc nec lorem id nulla viverra molestie eu at neque. Fusce finibus bibendum arcu, eget rutrum lectus. Nulla nunc ex, mollis quis volutpat tempus, condimentum nec velit. Praesent finibus lectus ut leo ornare, a elementum est mollis. Nulla facilisi. Nam ut fermentum enim, id consectetur sem.
+
+Aliquam erat volutpat. Pellentesque purus erat, tincidunt ut velit commodo, aliquet consectetur magna. Morbi vitae mattis massa. Etiam volutpat lacinia metus. Proin eu ex at justo finibus sagittis sed quis neque. Nam erat augue, semper et malesuada sed, cursus ac leo. Suspendisse eget quam eros. Praesent viverra non dui quis consequat. Aliquam feugiat tortor ut dui faucibus volutpat. Duis tincidunt ac lectus sed porttitor. Morbi interdum, nulla et eleifend pharetra, neque sapien luctus sem, eu ullamcorper tellus odio at est. Mauris scelerisque a nunc at rhoncus. Pellentesque eu sem lectus. Curabitur imperdiet metus sed felis sodales euismod. Mauris a pellentesque odio.
+
+Etiam vestibulum dignissim mauris, eget dapibus ex molestie bibendum. Aliquam non odio non ipsum egestas consectetur eu quis risus. Integer viverra interdum felis ut volutpat. Morbi vulputate pretium massa, nec molestie massa suscipit in. Vivamus ac urna sed risus blandit malesuada faucibus at metus. Proin lobortis tortor in fringilla tristique. Duis ex est, porta vel diam sed, auctor dapibus odio. Fusce vel libero nulla. Nullam consectetur suscipit felis ac condimentum. Nam metus leo, suscipit et enim ac, ultricies ultricies dui. Quisque semper placerat massa quis feugiat. 
