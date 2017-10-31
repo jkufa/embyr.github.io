@@ -14,7 +14,6 @@ html, body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 body {
@@ -23,7 +22,7 @@ body {
   grid-template-rows: 70vh auto auto auto;
   grid-template-areas:
     "hero hero"
-    "navigation navigation"
+    "sidebar sidebar"
     "pinned pinned"
     "content content"
     "footer footer";
@@ -161,7 +160,7 @@ nav {
       opacity: 0;
       @for $i from 1 through $n {
         &:nth-child(#{$i}) {
-          transition: transform 150ms $e #{-($i - $n - 1)*100}ms, opacity 100ms ease-out #{-($i - $n - 1)*100}ms;
+          transition: transform 150ms $e #{-($i - $n - 1)*100}ms, opacity 50ms ease-out #{-($i - $n - 1)*50}ms;
         }
       }
     }
@@ -272,6 +271,7 @@ nav {
 .pinned-items {
   grid-area: pinned;
   background: #494949;
+  display: none;
 }
 
 .footer {
@@ -455,7 +455,7 @@ nav {
 
 @media (min-width: 1100px) {
   body {
-    grid-template-rows: 100vh auto auto 200px;
+    grid-template-rows: 100vh auto auto auto;
     grid-template-areas:
       "hero hero"
       "sidebar content"
