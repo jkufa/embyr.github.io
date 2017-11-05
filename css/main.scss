@@ -32,7 +32,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   grid-area: hero;
-  background: #2c2c2c;
+  background: #000020;
   vertical-align: middle;
   display: flex;
   justify-content: center;
@@ -43,6 +43,8 @@ body {
   position: absolute;
   width: 50%;
   z-index: 2;
+  align-items: center;
+
 }
 
 #particles-js {
@@ -330,24 +332,22 @@ nav {
 
 .button {
     font-family: Roboto;
+    margin-top: 25%;
     position: absolute;
-    border: 3px solid lightgray;
-    color: lightgray;
+    border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    border-radius: 12px;
     z-index: 2;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
     cursor: pointer;
 }
 
 .button:hover {
   color: white;
-  border: 3px solid white;
-  background-color: #000025;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 1px solid #4d4d4d;
+  background-color: #000010;
 }
 
 
