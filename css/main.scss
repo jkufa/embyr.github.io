@@ -45,6 +45,17 @@ body {
   align-items: center;
   margin: auto;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#particles-js {
+  height: 50%;
+  grid-area: hero;
+  position: absolute;
+  z-index: 1;
+=======
+>>>>>>> feature/about
+>>>>>>> afdce1a0f81da0418f4061ad31d652ac3f79e70f
 }
 
 
@@ -437,6 +448,7 @@ nav {
   flex-direction: column;
   text-align: center;
   margin: auto;
+<<<<<<< HEAD
 }
 
 .employee_bio {
@@ -460,6 +472,31 @@ nav {
   flex-direction: row-reverse;
 }
 
+=======
+}
+
+.employee_bio {
+  width: auto;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  border-radius: 12px;
+  height: 220px;
+  z-index: 1000;
+}
+
+.project {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.project:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+
+>>>>>>> afdce1a0f81da0418f4061ad31d652ac3f79e70f
 .project__icon {
   height: 220px;
   max-height: none;
