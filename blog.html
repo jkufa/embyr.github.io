@@ -1,0 +1,24 @@
+---
+layout: default
+---
+      {% for post in site.posts %}
+        {% if post.categories contains 'blog' %}
+          <div class="post">
+            <div class="preview">
+              <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}" style="border-radius: 50%;"></object></div>
+              <div class="preview__blurb">
+                {{ post.title }}
+                <br>
+                {{ post.author }}<br><br>
+              </div>
+            </div>
+            <a href="{{ post.url }}">
+              <div class="text">
+                <div>{{ post.content | strip_html | truncatewords:50}}</div>
+                <br>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+  </body>
