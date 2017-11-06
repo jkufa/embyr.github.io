@@ -105,7 +105,7 @@ body {
 
 .top-bar .top-bar-right {
   float:right;
-  line-height:33px;
+  line-height: 3;
 }
 
 .top-bar .top-bar-right .octicon {
@@ -158,6 +158,21 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+  filter: invert(90%);
+}
+
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
 }
 
 //.navigation {
@@ -550,7 +565,7 @@ $mint: #f2faf3;
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     align-self: center;
   }
 }
