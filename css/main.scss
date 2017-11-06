@@ -32,8 +32,6 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
     overflow: hidden;
 }
 
@@ -565,7 +563,12 @@ $mint: #f2faf3;
 
   .content {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     align-self: center;
+  }
+
+  .wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
