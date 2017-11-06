@@ -1,5 +1,5 @@
 ---
 name: "Jack Kufa"
 title: "Engineer"
-picture: /img/jkufa.png
+picture: /img/employees/jkufa.jpg
 ---

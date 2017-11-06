@@ -1,5 +1,5 @@
 ---
 name: "Caleb Jett"
 title: "Chief Technology Officer"
-picture: /img/cjett.png
+picture: /img/employees/cjett.jpg
 ---
