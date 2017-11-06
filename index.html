@@ -40,8 +40,8 @@ and making them reality.</h2>
 {% for project in site.projects %}
 <div class="project">
   <div class="project__icon">
-    <object type="image/svg+xml" data="{{ project.icon }}" style="border-radius: 50%;"></object>
+    <object type="image/svg+xml" data="{{ project.icon }}"></object>
   </div>
-  <div class="project__description">{{ project.content }}</div>
+  <div class="project__desc">{{ project.content }}</div>
 </div>
 {% endfor %}
