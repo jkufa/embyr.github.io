@@ -42,7 +42,9 @@ and making them reality.</h2>
   <div class="project__icon">
     <object type="image/svg+xml" data="{{ project.icon }}"></object>
   </div>
-  <h3 style="text-align: center;">{{ project.name }}</h3>
-  <div class="project__desc">{{ project.content }}</div>
+  <div class="project__desc">
+      <h3 style="text-align: center;">{{ project.name }}</h3>
+      {{ project.content }}
+    </div>
 </div>
 {% endfor %}
