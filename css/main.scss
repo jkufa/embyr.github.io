@@ -32,25 +32,29 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   grid-area: hero;
-  background: #ffecb3;
+  background: #000020;
   vertical-align: middle;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .splash {
-  position: absolute;
   width: 50%;
-  z-index: 2;
-}
+  align-items: center;
+  margin: auto;
 
+<<<<<<< HEAD
 #particles-js {
   height: 50%;
   grid-area: hero;
   position: absolute;
   z-index: 1;
+=======
+>>>>>>> feature/about
 }
+
 
 a {
   text-decoration: none;
@@ -283,8 +287,9 @@ nav {
 
 .content {
   grid-area: content;
-  background: #ffffe5;
-  padding: 10px;
+  background: white;
+  margin: 20px;
+  align-items: center;
 }
 
 .blog {
@@ -331,24 +336,20 @@ nav {
 
 .button {
     font-family: Roboto;
-    position: absolute;
-    border: 3px solid lightgray;
-    color: lightgray;
+    width: 60%;
+    margin: auto;
+    border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    border-radius: 12px;
     z-index: 2;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
     cursor: pointer;
 }
 
 .button:hover {
   color: white;
-  border: 3px solid white;
-  background-color: #000025;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 1px solid #4d4d4d;
+  background-color: #000010;
 }
 
 
@@ -410,9 +411,82 @@ nav {
 }
 
 .posts {
-  padding-left:0;
+  padding-left: 0;
 }
 
+.employee {
+  width: 80%;
+  height: 220px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.employee:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+
+.employee__photo {
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20%/20%;
+  z-index: 1000;
+}
+
+.employee__photo * {
+  max-width:220px;
+}
+
+.employee__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.employee_bio {
+  width: auto;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  border-radius: 12px;
+  height: 220px;
+  z-index: 1000;
+}
+
+.project {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.project:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+
+.project__icon {
+  height: 220px;
+  max-height: none;
+  width: 30%;
+  max-width: 220px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.project__desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
 
 @keyframes reveal-text {
 	from {
@@ -462,6 +536,18 @@ nav {
       "sidebar sidebar"
       "content content"
       "footer footer"
+  }
+
+  .button {
+      font-family: Roboto;
+      width: 30%;
+      margin: auto;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      z-index: 2;
+      cursor: pointer;
   }
 
   .posts{
@@ -553,7 +639,9 @@ nav {
       bottom: -2px;
   }
 
-  #particles-js {
-    height: 100%
+  .content {
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
   }
 }

@@ -38,10 +38,16 @@
     <!-- Add your site or application content here -->
 
     <header class="hero">
-      <div class="splash"><object type="image/svg+xml" data="/img/watermark.svg"></object></div>
-      <div id="particles-js"></div>
-      <script src="/js/particles.min.js"></script>
+      <div class="splash">
+        <object type="image/svg+xml" data="/img/watermark.svg"></object>
+      </div>
     </header>
+
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/projects/">Projects</a>
+    </div>
 
 
     <div class="sidebar">
@@ -49,20 +55,22 @@
         <input id='link-top' type='checkbox'>
         <label class='down' for='link-top'>
           <!-- <img src="img/pulsar-long.svg"> -->
-          <h3>Embyr Technologies</h3>
+          <!-- <h3>Embyr Technologies</h3> -->
+
         </label>
         <ul>
           <li>
-            <a href="http://embyrtech.io">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/about/">About Us</a>
+
+            <a href="/blog">Blog</a>
           </li>
           <li>
-            <a href="/projects/">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="/team/">Meet the team</a>
+            <a href="/team">Meet the team</a>
           </li>
         </ul>
       </nav>
@@ -74,9 +82,7 @@
     </div>
 
     <main class="content">
-
       {{ content }}
-
     </main>
 
     <footer class="footer">
