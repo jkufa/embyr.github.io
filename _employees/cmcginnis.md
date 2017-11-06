@@ -1,5 +1,5 @@
 ---
 name: "Clay McGinnis"
 title: "Developer"
-picture: /img/cmcginnis.png
+picture: /img/employees/cmcginnis.jpg
 ---
