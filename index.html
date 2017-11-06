@@ -1,0 +1,45 @@
+---
+layout: default
+title: About Us
+permalink: /
+---
+
+<h2>Here at Embyr Technologies, we are focused on changing the world by taking new ideas
+and making them reality.</h2>
+
+<p>
+  Through our research and technological advancement, we hope to provide our
+  communities and the world as a whole with the platform they need to create.
+  We believe that the best way to improve an environment is to provie the tools
+  for others to build up the world around them, allowing them to shape the world
+  for the better.
+</p>
+
+<P>
+  A spark of inspiration can ignite change. Embyr strives to do the same. We want to ignite technological innovation from small ideas and out of the box thinking. Our motto is that we are a function that maps ideas to reality. We hope to create open source technology to help people and make lives easier. We are a group of like minded innovators who are willing to take on the tough problems. Our logo represents our out of the box thinking, hoping to spark a change.
+</p>
+
+<div style="display: flex; flex-direction:column; background-color:#faf6ec; align-items: center;">
+<h1 style="text-align: center;">Our Team</h1>
+  {% for employee in site.employees %}
+  <div class="employee">
+    <div class="employee__photo">
+      <object type="image/svg+xml" data="{{ employee.picture }}" style="border-radius: 50%;"></object>
+    </div>
+    <div class="employee__text">
+      <h3 style="text-align: center;">{{ employee.name }}</h3>
+      <h4 style="text-align: center;">{{ employee.title }}</h4>
+      <div class="employee__bio">{{ employee.content }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h1 style="text-align: center;">Our Projects</h1>
+
+{% for project in site.projects %}
+<div class="project">
+  <div class="project__icon">{{ project.icon }}</div>
+  <div class="project__description">{{ project.desc }}</div>
+</div>
+{% endfor %}
