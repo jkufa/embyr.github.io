@@ -37,25 +37,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .splash {
-  width: 50%;
-  align-items: center;
-  margin: auto;
+  width: 70%;
+  z-index: 2;
+}
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 #particles-js {
-  height: 50%;
-  grid-area: hero;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   position: absolute;
   z-index: 1;
-=======
->>>>>>> feature/about
->>>>>>> afdce1a0f81da0418f4061ad31d652ac3f79e70f
 }
 
 
@@ -448,7 +445,6 @@ nav {
   flex-direction: column;
   text-align: center;
   margin: auto;
-<<<<<<< HEAD
 }
 
 .employee_bio {
@@ -472,31 +468,6 @@ nav {
   flex-direction: row-reverse;
 }
 
-=======
-}
-
-.employee_bio {
-  width: auto;
-  display: flex;
-  align-items: center;
-  line-height: 100%;
-  border-radius: 12px;
-  height: 220px;
-  z-index: 1000;
-}
-
-.project {
-  width: 100%;
-  padding: 25px 0;
-  display: flex;
-  flex-direction: row;
-}
-
-.project:nth-of-type(even){
-  flex-direction: row-reverse;
-}
-
->>>>>>> afdce1a0f81da0418f4061ad31d652ac3f79e70f
 .project__icon {
   height: 220px;
   max-height: none;
@@ -558,6 +529,11 @@ nav {
 }
 
 @media (min-width: 1100px) {
+
+  .splash {
+    width: 50%;
+  }
+
   body {
     grid-template-rows: 70vh auto auto auto;
     grid-template-areas: // serve mobile to everybody until we have a better solution
