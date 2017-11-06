@@ -36,8 +36,11 @@ body {
 }
 
 .wrapper.no-pad {
- padding-left:0;
- padding-right:0
+  display: flex;
+  padding-left:0;
+  padding-right:0;
+  height: 48px;
+  justify-content: space-between;
 }
 
 .wrapper.features {
@@ -57,22 +60,21 @@ body {
 }
 
 .navigation {
+  display: flex;
   list-style-type:none;
   margin:0;
   padding:0;
 }
 .navigation li {
-  display:inline-block;
-  /*! padding-right:5px; */
-  /*! height:33px; */
-  /*! vertical-align:top */
+  display: flex;
+  align-items: center;
 }
 .navigation li:last-child {
   padding-right:0
 }
 .navigation a {
   padding:5px;
-  display:inline-block;
+  display: flex;
   transition:color 0.2s;
   -o-transform:color 0.2s;
   -moz-transform:color 0.2s;
@@ -85,23 +87,25 @@ body {
 .top-bar {
   display: grid;
   grid-area: navbar;
-  text-align:left;
-  padding:5px 0;
-  background-color:#333;
-  color:#efeae1;
-  font-size:14px;
-  height:43px
+  text-align: left;
+  background-color: #333;
+  color: #efeae1;
+  font-size: 16px !important;
+  vertical-align: middle;
 }
 
 .top-bar h1 {
   font-size:inherit;
   display:inline-block;
-  line-height:0;
+  line-height: 3;
   margin:0
 }
 
 .top-bar a {
-  color:#efeae1
+  color: #efeae1;
+  line-height: 38px;
+  height: 100%;
+  display: flex;
 }
 
 .top-bar a:hover {
@@ -114,7 +118,8 @@ body {
 }
 
 .top-bar .navigation {
-  display:inline-block
+  display: flex;
+  flex-direction: row;
 }
 
 .top-bar .top-bar-right {
@@ -174,21 +179,9 @@ a {
   text-decoration: none;
 }
 
-a.svg {
-  position: relative;
-  display: inline-block;
-  filter: invert(90%);
+.svg object {
+  max-height: 38px;
 }
-
-a.svg:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left:0;
-}
-
 //.navigation {
 //  grid-area: navigation;
 //}
