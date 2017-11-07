@@ -18,3 +18,7 @@ Go Programming Language
 [Functions](/notes/Golang/functions.md)
 
 [Maps](/notes/Golang/maps.md)
+
+[Structs](/notes/Golang/structs.md)
+
+[Exporting](/notes/Golang/export.md)
