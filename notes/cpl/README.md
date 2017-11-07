@@ -6,17 +6,17 @@ CS 2001
 =======
 
 
-[Python](/notes/Python/README.md)
+[Python](/notes/Python/README)
 -------------------------
 
-[JavaScript](/notes/JavaScript/README.md)
+[JavaScript](/notes/JavaScript/README)
 ----------------------------------
 
-[Go](/notes/Golang/README.md)
+[Go](/notes/Golang/README)
 ----------------------
 
-[Elm](/notes/Elm/README.md)
+[Elm](/notes/Elm/README)
 --------------------
 
-[Julia](/notes/Julia/README.md)
+[Julia](/notes/Julia/README)
 ------------------------
