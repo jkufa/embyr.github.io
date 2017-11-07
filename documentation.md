@@ -3,4 +3,4 @@ layout: default
 title: notes
 ---
 
-## [Notes](/notes/README)
+## [Useful References](/notes/README)
