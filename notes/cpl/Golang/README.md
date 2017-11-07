@@ -5,24 +5,24 @@ layout: default
 Go Programming Language
 =======================
 
-[Intro to Go](/notes/Golang/intro)
+[Intro to Go](intro)
 
-[Basics](/notes/Golang/basics)
+[Basics](basics)
 
-[Memory and more](/notes/Golang/memory)
+[Memory and more](memory)
 
-[Slices cont.](/notes/Golang/slices)
+[Slices cont.](slices)
 
-[Unicode](/notes/Golang/unicode)
+[Unicode](unicode)
 
-[Strings](/notes/Golang/strings)
+[Strings](strings)
 
-[File I/O](/notes/Golang/files)
+[File I/O](files)
 
-[Functions](/notes/Golang/functions)
+[Functions](functions)
 
-[Maps](/notes/Golang/maps)
+[Maps](maps)
 
-[Structs](/notes/Golang/structs)
+[Structs](structs)
 
-[Exporting](/notes/Golang/export)
+[Exporting](export)

@@ -4,16 +4,16 @@ layout: default
 
 JavaScript - ECMAscript
 =======================
-[Intro to JavaScript](/notes/JavaScript/intro)
+[Intro to JavaScript](intro)
 
-[Basics](/notes/JavaScript/basics)
+[Basics](basics)
 
-[Language Quirks](/notes/JavaScript/quirks)
+[Language Quirks](quirks)
 
-[Control Flow](/notes/JavaScript/control)
+[Control Flow](control)
 
-[The JavaScript Engine](/notes/JavaScript/engine)
+[The JavaScript Engine](engine)
 
-[Object-Oriented Programming](/notes/JavaScript/oop)
+[Object-Oriented Programming](oop)
 
-[Promises](/notes/JavaScript/promises)
+[Promises](promises)

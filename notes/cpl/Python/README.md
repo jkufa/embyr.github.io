@@ -5,18 +5,18 @@ layout: default
 Python Lectures
 ===============
 
-[Intro To Python](/notes/Python/lec02)
+[Intro To Python](lec02)
 
-[Operators, Control Statements, and Loops](/notes/Python/lec03)
+[Operators, Control Statements, and Loops](lec03)
 
-[Built-in Functions](/notes/Python/lec04)
+[Built-in Functions](lec04)
 
-[Exceptions and File I/O](/notes/Python/lec05)
+[Exceptions and File I/O](lec05)
 
-[Modules and Classes](/notes/Python/lec06)
+[Modules and Classes](lec06)
 
-[Star Magic and Generators](/notes/Python/lec07)
+[Star Magic and Generators](lec07)
 
-[Higher Order Functions](/notes/Python/lec08)
+[Higher Order Functions](lec08)
 
-[Decorators to Decorators](/notes/Python/lec09)
+[Decorators to Decorators](lec09)
