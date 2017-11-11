@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #d84315;
+}
+
 .hero {
   display: flex;
   height: 300px;
@@ -40,14 +44,17 @@ a {
 
 .who {
   height: 500px;
+  color: #27dede;
 }
 
 .vision {
   height: 500px;
+  color: #27dede;
 }
 
 .what {
   height: 500px;
+  color: #27dede;
 }
 
 .footer {
@@ -70,7 +77,7 @@ a {
 .footer_collab {
   font-size: 36px;
   height: 36px;
-  color: #ffa000;
+  color: #d84315;
   grid-column: 2/4;
   grid-row: 1;
   margin-bottom: 0;
@@ -84,12 +91,22 @@ a {
   margin-left: 50px;
   color: #ffa000;
 }
+
+.footer_social * {
+  color: #ffa000;
+}
+
 .footer_nav {
   grid-column: 1/4;
   grid-row: 3;
   display: flex;
   justify-content: space-between;
   height: 30px;
+  margin: 0 20%;
+}
+
+.footer_nav * {
+  color: #4d4d4d;
 }
 
 .content {
