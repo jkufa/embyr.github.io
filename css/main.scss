@@ -57,8 +57,9 @@ a:hover {
 
 .vision {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
   text-align: center;
   color: #aedede;
   padding: 0 50px;
