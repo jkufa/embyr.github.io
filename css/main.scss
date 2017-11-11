@@ -43,18 +43,33 @@ a:hover {
 }
 
 .who {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   height: 500px;
   color: #27dede;
+  margin: auto 50px;
 }
 
 .vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   height: 500px;
   color: #27dede;
+  margin: auto 50px;
 }
 
 .what {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   height: 500px;
   color: #27dede;
+  margin: auto 50px;
 }
 
 .footer {
