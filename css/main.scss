@@ -40,6 +40,7 @@ a:hover {
   display: flex;
   height: 300px;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .who {
@@ -47,9 +48,11 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 500px;
   color: #aedede;
-  margin: auto 50px;
+  padding: 0 50px;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 50px;
 }
 
 .vision {
@@ -57,9 +60,11 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 500px;
   color: #aedede;
-  margin: auto 50px;
+  padding: 0 50px;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 50px;
 }
 
 .what {
@@ -67,9 +72,11 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 500px;
   color: #aedede;
-  margin: auto 50px;
+  padding: 0 50px;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 50px;
 }
 
 .footer {
