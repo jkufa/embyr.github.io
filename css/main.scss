@@ -38,23 +38,42 @@ a {
   justify-content: center;
 }
 
+.who {
+  height: 500px;
+}
+
+.vision {
+  height: 500px;
+}
+
+.what {
+  height: 500px;
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  max-width: 600px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer_fire {
   grid-column: 1;
   grid-row: 1/3;
+  height: 200px;
 }
 
 .footer_collab {
-  font-size: 36px;
+  font-size: 24px;
+  height: 36px;
   color: #ffa000;
   grid-column: 2/4;
   grid-row: 1;
+  margin-bottom: 0;
 }
 
 .footer_social {
@@ -62,12 +81,15 @@ a {
   flex-direction: column;
   grid-column: 2/4;
   grid-row: 2;
+  margin-left: 50px;
   color: #ffa000;
 }
 .footer_nav {
-  display: flex;
   grid-column: 1/4;
   grid-row: 3;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
 }
 
 .content {
