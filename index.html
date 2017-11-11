@@ -1,45 +1,67 @@
----
-layout: default
-title: About Us
-permalink: /
----
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#4682b4">
 
-<h2>Here at Embyr Technologies, we are focused on changing the world by taking new ideas
-and making them reality.</h2>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>embyr</title>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<p>
-  Through our research and technological advancement, we hope to provide our
-  communities and the world as a whole with the platform they need to create.
-  We believe that the best way to improve an environment is to provie the tools
-  for others to build up the world around them, allowing them to shape the world
-  for the better.
-</p>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-<P>
-  A spark of inspiration can ignite change. Embyr strives to do the same. We want to ignite technological innovation from small ideas and out of the box thinking. Our motto is that we are a function that maps ideas to reality. We hope to create open source technology to help people and make lives easier. We are a group of like minded innovators who are willing to take on the tough problems. Our logo represents our out of the box thinking, hoping to spark a change.
-</p>
+    <nav class="nav">
+      <a href="/">Test</a>
+      <a href="/blog/">Blog</a>
+      <a href="microcloud.embyrtech.io">Projects</a>
+    </nav>
 
-<div style="display: flex; flex-direction:column; background-color:#faf6ec; align-items: center;">
-<h1 style="text-align: center;">Our Team</h1>
-  {% for employee in site.employees %}
-  <div class="employee">
-    <div class="employee__photo">
-      <object type="image/svg+xml" data="{{ employee.picture }}" style="border-radius: 50%;"></object>
-    </div>
-    <div class="employee__text">
-      <h3 style="text-align: center;">{{ employee.name }}</h3>
-      <h4 style="text-align: center;">{{ employee.title }}</h4>
-      <div class="employee__bio">{{ employee.content }}</div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+    <header class="hero">
+      <object type="image/svg+xml" data="/img/logo.svg" style="height:100%;"></object>
+    </header>
 
-<h1 style="text-align: center;">Our Projects</h1>
+    <section>
+    </section>
 
-{% for project in site.projects %}
-<div class="project">
-  <div class="project__icon">{{ project.icon }}</div>
-  <div class="project__description">{{ project.desc }}</div>
-</div>
-{% endfor %}
+    <section>
+    </section>
+
+    <section>
+    </section>
+
+
+    <footer class="footer">
+      <div class="footer_fire"></div>
+      <div class="footer_collab"></div>
+      <div class="footer_social"></div>
+      <div class="footer_nav"></div>
+    </footer>
+
+
+  </body>
+</html>
