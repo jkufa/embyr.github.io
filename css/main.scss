@@ -51,13 +51,18 @@ a {
 }
 
 .footer_collab {
+  font-size: 36px;
+  color: #ffa000;
   grid-column: 2/4;
   grid-row: 1;
 }
 
 .footer_social {
+  display: flex;
+  flex-direction: column;
   grid-column: 2/4;
   grid-row: 2;
+  color: #ffa000;
 }
 .footer_nav {
   display: flex;
