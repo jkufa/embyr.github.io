@@ -84,6 +84,7 @@ a:hover {
 .wrapper__footer {
   background: linear-gradient(#0f0f2f, #1c1c00 60%);
   width: 100%;
+
 }
 
 .footer {
@@ -147,8 +148,9 @@ a:hover {
 
 .content {
   grid-area: content;
-  background: #ffffe5;
-  padding: 10px;
+  background: white;
+  margin: 20px;
+  align-items: center;
 }
 
 .blog {
@@ -274,8 +276,9 @@ a:hover {
 }
 
 .employee {
-  width: 100%;
-  padding: 25px 0;
+  width: 80%;
+  height: 220px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -285,10 +288,6 @@ a:hover {
 }
 
 .employee__photo {
-  height: 220px;
-  max-height: none;
-  width: 30%;
-  max-width: 220px;
   margin-right: 10px;
   margin-left: 10px;
   position: relative;
@@ -296,6 +295,10 @@ a:hover {
   flex-direction: column;
   border-radius: 20%/20%;
   z-index: 1000;
+}
+
+.employee__photo * {
+  max-width:220px;
 }
 
 .employee__text {
@@ -313,6 +316,37 @@ a:hover {
   border-radius: 12px;
   height: 220px;
   z-index: 1000;
+}
+
+.project {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.project:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+
+.project__icon {
+  height: 220px;
+  max-height: none;
+  width: 30%;
+  max-width: 220px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.project__desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
 }
 
 @keyframes reveal-text {
@@ -356,6 +390,11 @@ a:hover {
 }
 
 @media (min-width: 1100px) {
+
+  .splash {
+    width: 50%;
+  }
+
   body {
     grid-template-rows: 70vh auto auto auto;
     grid-template-areas: // serve mobile to everybody until we have a better solution
@@ -466,7 +505,9 @@ a:hover {
       bottom: -2px;
   }
 
-  .employee {
-    width: 60%;
+  .content {
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
   }
 }
