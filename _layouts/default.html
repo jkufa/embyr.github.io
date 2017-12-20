@@ -37,17 +37,35 @@
 
     <!-- Add your site or application content here -->
 
+    <nav class="top-bar">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+
+      <li>      <a href="http://manage.embyrtech.io" class="svg">
+              <object type="image/svg+xml" data="/img/logo.svg"></object>
+            </a></li>
+      <li><a class="" href="/">Home</a></li>
+      <li><a class="" href="/blog/">Blog</a></li>
+      <li><a  href="http://projects.embyrtech.io">Projects</a></li>
+
+    </ul>
+
+    <div class="top-bar-right">
+      <a href="http://manage.embyrtech.io" class="svg">
+        <object type="image/svg+xml" data="/img/icons/settings.svg"></object>
+      </a>
+    </div>
+  </div>
+</nav>
+
     <header class="hero">
       <div class="splash">
         <object type="image/svg+xml" data="/img/watermark.svg"></object>
       </div>
     </header>
 
-    <div class="navbar">
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-      <a href="/projects/">Projects</a>
-    </div>
+
 
 
     <div class="sidebar">
@@ -81,7 +99,9 @@
     </div>
 
     <main class="content">
-      {{ content }}
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </main>
 
     <footer class="footer">
