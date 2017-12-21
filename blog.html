@@ -7,15 +7,10 @@ paginate: true
     <div class="preview">
       {% assign previous = 'nobody' %}
       {% unless post.author == previous %}
-      <p>{{ post.author }} neq {{ previous }}</p>
         <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}" style="border-radius: 50%;"></object></div>
-        <p>{% assign previous = post.author %}</p>
-        <p>setting previous:{{ previous }}</p>
       {% else %}
-      <p>{{ post.author }} neq {{ previous }}</p>
         <div class="preview__image"></div>
-        <p>{% assign previous = post.author %}</p>
-        <p>setting previous:{{ previous }}</p>
+
       {% endunless %}
       <div class="preview__blurb">
         {{ post.title }}
