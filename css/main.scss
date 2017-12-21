@@ -81,6 +81,18 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #deffff;
+  padding: 0 50px;
+  margin: auto;
+  max-width: 900px;
+  margin-bottom: 50px;
+}
+
 .wrapper__footer {
   background: linear-gradient(#0f0f2f, #1c1c00 60%);
   width: 100%;
@@ -148,7 +160,6 @@ a:hover {
 
 .content {
   grid-area: content;
-  background: white;
   margin: 20px;
   align-items: center;
 }
@@ -187,7 +198,6 @@ a:hover {
 .blog__author {
   width: 100%;
   margin:auto;
-  background-color: #faf6ec;
   display: flex;
   text-align: center;
   align-items: center;
@@ -230,7 +240,7 @@ a:hover {
 .preview {
   min-height: 55px;
   max-height: 100px;
-  background-color: #ffecb3;
+  border-color: #deffff;
   width:100%;
   display: flex;
   flex-direction: row;
@@ -261,10 +271,10 @@ a:hover {
 
 .text {
   font-family: 'Roboto';
-  color: black;
+  color: #deffff;
   text-decoration: none;
   width: 100%;
-  background-color: #ffecb3;
+  border-color: #deffff;
 }
 
 .text * {
@@ -426,9 +436,9 @@ a:hover {
 
   }
 
-  .post:nth-of-type(even){
-    flex-direction: row-reverse;
-  }
+  // .post:nth-of-type(even){
+  //   flex-direction: row-reverse;
+  // }
 
   .preview {
     height: 220px;
@@ -478,7 +488,7 @@ a:hover {
       width:220px;
       height:220px;
       border-radius:20%/20%;
-      background-color: #faf6ec;
+      border-color: #deffff;
       position:relative;
       z-index: 3
   }

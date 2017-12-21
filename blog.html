@@ -1,24 +1,33 @@
 ---
 layout: default
+paginate: true
 ---
-      {% for post in site.posts %}
-        {% if post.categories contains 'blog' %}
-          <div class="post">
-            <div class="preview">
-              <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}" style="border-radius: 50%;"></object></div>
-              <div class="preview__blurb">
-                {{ post.title }}
-                <br>
-                {{ post.author }}<br><br>
-              </div>
-            </div>
-            <a href="{{ post.url }}">
-              <div class="text">
-                <div>{{ post.content | strip_html | truncatewords:50}}</div>
-                <br>
-              </div>
-            </a>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </body>
+{% for post in site.posts %}
+  <div class="post">
+    <div class="preview">
+      {% assign previous = 'nobody' %}
+      {% unless post.author == previous %}
+      <p>{{ post.author }} neq {{ previous }}</p>
+        <div class="preview__image"><object type="image/svg+xml" data="{{ post.picture }}" style="border-radius: 50%;"></object></div>
+        <p>{% assign previous = post.author %}</p>
+        <p>setting previous:{{ previous }}</p>
+      {% else %}
+      <p>{{ post.author }} neq {{ previous }}</p>
+        <div class="preview__image"></div>
+        <p>{% assign previous = post.author %}</p>
+        <p>setting previous:{{ previous }}</p>
+      {% endunless %}
+      <div class="preview__blurb">
+        {{ post.title }}
+        <br>
+        {{ post.author }}<br><br>
+      </div>
+    </div>
+    <a href="{{ post.url }}">
+      <div class="text">
+        <div>{{ post.content | strip_html | truncatewords:50}}</div>
+        <br>
+      </div>
+    </a>
+  </div>
+{% endfor %}
