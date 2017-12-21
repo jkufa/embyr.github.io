@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cybersecurity"
-author: Lucas Mefford
+author: "Lucas Mefford"
 picture: /img/employees/lmefford.jpg
 date:   2017-11-7
 categories: blog
