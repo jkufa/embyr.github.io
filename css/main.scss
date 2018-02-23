@@ -81,6 +81,18 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.zip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #deffff;
+  padding: 0px 50px;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -520,5 +532,21 @@ a:hover {
     margin: 0 auto;
     width: 100%;
     align-self: center;
+  }
+
+  .zip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #deffff;
+    padding: 50px 50px;
+    margin: auto;
+    max-width: 950px;
+    margin-bottom: 50px;
+  }
+  
+  .zip:nth-of-type(even) {
+    flex-direction: row-reverse;
   }
 }
